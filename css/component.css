@@ -60,3 +60,14 @@
   font-weight: var(--fw_sb);
   border-radius: 16px;
 }
+
+/* 인풋 */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 56px;
+  padding: 16px 24px 14px 24px;
+  border-radius: 12px;
+  border: 1px solid var(--secondary100);
+  outline: none;
+}

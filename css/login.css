@@ -1,0 +1,35 @@
+@import url(/css/component.css);
+
+/* 로그인 섹션 */
+.loginFrame {
+  background-color: pink;
+  width: 640px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+/* 인풋 */
+.iptWrap {
+  background-color: aquamarine;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.iptWrap label {
+  margin-bottom: 16px;
+  font: var(--txt_2lg_b);
+  color: var(--secondary800);
+}
+
+/* 비밀번호 보이기 버튼 */
+.btn_eye {
+  background: #ccf url(/img/page/login/btn_visibility_off.png) no-repeat center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  outline: none;
+}
+
+.btn_eye.active {
+  background-image: url(/img/page/login/btn_visibility_on.png);
+}

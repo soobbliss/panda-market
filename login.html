@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>판다마켓</title>
+    <link rel="icon" href="/img/icon/panda_face.png" />
+    <link rel="stylesheet" href="/css/login.css" />
   </head>
   <body>
-    <p>로그인페이지입니다.</p>
+    <section class="loginFrame">
+      <img src="/img/page/login/login_logo.png" alt="판다마켓" />
+      <form action="">
+        <div class="iptWrap">
+          <label for="#ipt_email">이메일</label>
+          <input type="text" id="ipt_email" />
+        </div>
+        <div class="iptWrap">
+          <label for="#ipt_name">닉네임</label>
+          <input type="text" id="ipt_name" />
+        </div>
+        <div class="iptWrap">
+          <label for="#ipt_password">비밀번호</label>
+          <input type="password" id="ipt_password" />
+          <button class="btn_eye"></button>
+        </div>
+        <div class="iptWrap">
+          <label for="#ipt_password_check">비밀번호 확인</label>
+          <input type="password" id="ipt_password_check" />
+        </div>
+      </form>
+    </section>
   </body>
 </html>
