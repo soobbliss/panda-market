@@ -152,13 +152,13 @@ main {
   color: var(--primary700);
 }
 .main_sec02 .wrap .contentFrame:nth-child(1) .content__imgBox {
-  background: url(/img/main/Img_home_01.png) no-repeat center;
+  background: url(/img/page/main/Img_home_01.png) no-repeat center;
 }
 .main_sec02 .wrap .contentFrame:nth-child(2) .content__imgBox {
-  background: url(/img/main/Img_home_02.png) no-repeat center;
+  background: url(/img/page/main/Img_home_02.png) no-repeat center;
 }
 .main_sec02 .wrap .contentFrame:nth-child(3) .content__imgBox {
-  background: url(/img/main/Img_home_03.png) no-repeat center;
+  background: url(/img/page/main/Img_home_03.png) no-repeat center;
 }
 /* 푸터 */
 footer {
