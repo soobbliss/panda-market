@@ -32,8 +32,8 @@
 }
 
 /* 비밀번호 보이기 버튼 */
-.btn_eye {
-  background: #ccf url(/img/page/login/btn_visibility_off.png) no-repeat center;
+.btnEye {
+  background: url(/img/page/login/btn_visibility_off.png) no-repeat center;
   width: 24px;
   height: 24px;
   border: none;
@@ -43,7 +43,7 @@
   right: 24px;
 }
 
-.btn_eye.active {
+.btnEye.active {
   background-image: url(/img/page/login/btn_visibility_on.png);
 }
 
@@ -51,6 +51,7 @@
 .loginSimple {
   padding: 16px 23px;
   background-color: #e6f2ff;
+  border-radius: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
